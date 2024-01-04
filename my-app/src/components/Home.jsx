@@ -1,6 +1,14 @@
 const Home = () => {
   return (
-    <div style={{ backgroundColor: "#f7f7f7", margin: "5%", padding: "5%" }}>
+    <div
+      style={{
+        backgroundColor: "#f7f7f7",
+        margin: "5%",
+        padding: "5%",
+        display: "flex",
+        justifyContent: "space-between",
+      }}
+    >
       {" "}
       <div class="jumbotron" style={{ width: "50vw" }}>
         <h1 class="display-4" style={{ fontFamily: "Roboto" }}>
@@ -18,8 +26,13 @@ const Home = () => {
           </a>
         </p>
       </div>
+      <img
+        src="https://github.com/anthea97/aj-portfolio/blob/main/my-app/public/profile.jpeg?raw=true"
+        alt="..."
+        style={{ width: "30%", height: "50%" }}
+        class="rounded"
+      ></img>
     </div>
-    <img src="..." class="rounded float-end" alt="..."></img>
   );
 };
 

@@ -1,3 +1,5 @@
+import Link from "react-router-dom";
+
 const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,17 +21,21 @@ const Header = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/aj-portfolio"
+              >
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/aj-portfolio/projects">
                 Projects
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/aj-portfolio/experience">
                 Experience
               </a>
             </li>
@@ -39,7 +45,7 @@ const Header = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/aj-portfolio/contact">
                 Contact
               </a>
             </li>
