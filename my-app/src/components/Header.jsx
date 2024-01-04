@@ -5,7 +5,7 @@ const Header = () => {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          AJ{" "}
+          <img src="../public/navicon.png" alt="icon" />
         </a>
         <button
           class="navbar-toggler"
