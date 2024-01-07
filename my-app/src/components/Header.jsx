@@ -1,11 +1,16 @@
-import Link from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="../public/navicon.png" alt="icon" />
+          <img
+            src="https://github.com/anthea97/aj-portfolio/blob/main/my-app/public/navicon.png?raw=true"
+            alt="icon"
+            width="30"
+            height="30"
+          />
         </a>
         <button
           class="navbar-toggler"

@@ -21,7 +21,11 @@ const Home = () => {
         </p>
         <hr class="my-4"></hr>
         <p class="lead">
-          <a class="btn btn-dark btn-lg" href="#" role="button">
+          <a
+            class="btn btn-dark btn-lg"
+            href="/aj-portfolio/contact"
+            role="button"
+          >
             Contact
           </a>
         </p>
