@@ -19,7 +19,8 @@ function App() {
         <Route path="/aj-portfolio/experience" element={<Experience />} />
         <Route path="/aj-portfolio/contact" element={<Contact />} />
       </Routes>
-      {/* <Home></Home> */}
+
+      <Footer></Footer>
     </div>
   );
 }

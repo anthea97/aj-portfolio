@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/aj-portfolio">
           <img
             src="https://github.com/anthea97/aj-portfolio/blob/main/my-app/public/navicon.png?raw=true"
             alt="icon"

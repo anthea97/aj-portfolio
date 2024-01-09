@@ -1,7 +1,16 @@
 const Footer = () => {
   return (
-    <footer class="text-center text-lg-start text-muted">
-      <div class="text-center p-4">© TheaBreo 2024</div>
+    <footer class="text-muted">
+      <div
+        class="p-4"
+        style={{
+          padding: "0",
+          color: "#B6BBC4",
+          textAlign: "right",
+        }}
+      >
+        © TheaBreo
+      </div>
     </footer>
   );
 };
