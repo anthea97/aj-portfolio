@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <footer class="text-muted">
@@ -9,7 +10,13 @@ const Footer = () => {
           textAlign: "right",
         }}
       >
-        © TheaBreo
+        <a
+          class="footer-link"
+          href="https://github.com/anthea97"
+          style={{ color: "inherit" }}
+        >
+          © TheaBreo
+        </a>
       </div>
     </footer>
   );
