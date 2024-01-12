@@ -60,7 +60,12 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a
+                  class="nav-link"
+                  href="https://raw.githubusercontent.com/anthea97/aj-portfolio/main/my-app/public/Amritha_Jestine_Resume_Site.pdf"
+                  download
+                  target="_blank"
+                >
                   Resume
                 </a>
               </li>
