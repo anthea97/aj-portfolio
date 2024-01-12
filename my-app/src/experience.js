@@ -63,7 +63,7 @@ const projectData = [
     name: "Six Sigma Implementation for Shastha Foods",
     date: "Jan - May 2023",
     image:
-      "https://media.istockphoto.com/id/655937698/vector/fish-farming-industry-with-conveyor-and-workers-vector-isometric-illustration.jpg?s=612x612&w=0&k=20&c=5hm3ah_0poOKm7IlhvlheYSuluwCZ5hWHDpL5RH4Udw=",
+      "https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-70.jpg",
     details: [
       "Implemented RFID technology for Shastha Food’s inventory to reduce cost incurred from manual inventorying and improvement in inventory management.",
       "Used Six Sigma Methodologies like DMAIC, FTA, control charts and cost-benefit analysis to postulate solution and to prove improvement post implementation. ",
@@ -73,7 +73,7 @@ const projectData = [
     name: "Industrial Cost Optimisation",
     date: "Sep - Dec 2022",
     image:
-      "https://www.training.com.au/wp-content/uploads/TR_Healthcare-Medical-Trends_Feature.png",
+      "https://thumbs.dreamstime.com/b/pharmacy-icon-set-included-icons-as-medical-staff-drug-pills-medicine-capsule-herbal-medicines-pharmacist-drugstore-vector-115952990.jpg",
     details: [
       "Generated forecast, aggregate plan, MPS, MRP, and capacity plans for 2 medical products for an organization. ",
       "Formulated minimum cost for the industry by defining the optimal quantity of products to be produced, workforce, bill of material, machinery, and routing of products.",

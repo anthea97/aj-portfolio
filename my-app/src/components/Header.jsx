@@ -84,6 +84,7 @@ const Header = () => {
         <a
           href="https://www.linkedin.com/in/amritha-jestine-3b1957147/"
           style={{ margin: "1%" }}
+          target="_blank"
         >
           <Linkedin class="h3"></Linkedin>
         </a>

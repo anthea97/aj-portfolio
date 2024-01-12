@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div>
       <h1
-        class="display-4"
+        className="display-4"
         style={{
           fontFamily: "Roboto",
           margin: "2% 2% 1% 2%",
@@ -14,32 +14,31 @@ const Projects = () => {
       </h1>
       <div
         style={{
-          backgroundColor: "#f7f7f7",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-evenly",
           margin: "0% 5% 5% 5%",
           padding: "2%",
-          display: "flex",
-          justifyContent: "space-evenly",
         }}
       >
         {projectData.map((info) => (
-          <div class="card" style={{ maxWidth: "25vw" }}>
+          <div
+            className="card"
+            style={{ maxWidth: "45%", marginBottom: "20px", display: "flex" }}
+          >
             <img
               src={info.image}
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
-              style={{ maxHeight: "30vh", maxWidth: "25vw" }}
+              style={{ maxHeight: "30vh", flex: "1", marginRight: "20px" }}
             ></img>
-            <div class="card-body">
-              <h5 class="card-title">{info.name}</h5>
-              <ul class="card-text">
-                {info.details.map((point) => (
-                  <li>{point}</li>
+            <div className="card-body" style={{ flex: "2" }}>
+              <h5 className="card-title">{info.name}</h5>
+              <ul className="card-text">
+                {info.details.map((point, index) => (
+                  <li key={index}>{point}</li>
                 ))}
               </ul>
-
-              <a href="#" class="btn btn-dark">
-                See more
-              </a>
             </div>
           </div>
         ))}
