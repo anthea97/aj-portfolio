@@ -37,6 +37,6 @@
   }
 }
 
-a :hover {
-  color: blue;
+button :hover {
+  color: #61dafb;
 }
